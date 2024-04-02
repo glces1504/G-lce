@@ -5,6 +5,7 @@
 
     body{
     width: 80%;
+    height: 2000px;
     margin: 0 auto;
     background-color: #3188908b;
     padding: 20px;
@@ -13,11 +14,12 @@ table{
     background-color: #333;
     color: #ac2020;
     padding: 10px;
+
 }
-main-content{
+.main-content{
     width: 70%;
     float: left;
-    padding: 10px;
+    padding: 60px;
 }
 .text{
     text-decoration: underline;
@@ -64,4 +66,37 @@ text-align: center;
 .hiza {
     width: 100px;
     margin: auto;
+}
+.relativeDiv{
+    position: relative;
+    top:20px;
+    left: 30px;
+
+}
+.absoluteDiv{
+    position:absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.fixedDiv{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+.border{
+    border: 5px dashed black;
+    height: 80px;
+    border-radius: 60px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.flex-item {
+    flex:0 1 auto;
+    align-self: center;
+    order: 2;
 }
